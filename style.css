@@ -1,0 +1,37 @@
+body{
+    text-align: center;
+    background-color: #2C3E50;
+
+} 
+
+.botones button{
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.66);
+
+}
+.botones{
+    box-shadow: 9px 4px 40px 5px rgba(0,0,0,0.66);
+    background-color: #C0C0C0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 7px;
+    width: 650px;
+    margin-top: 25px;
+}
+.botones .btEspacio{
+    width: 250px;
+}
+
+.visor input{
+    text-align: center;
+    width: 90%;
+    height: 250px;
+    color: black;
+    font-size: 25px
+}
+

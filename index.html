@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Teclado Digital</title>
+</head>
+<body>
+    <div class="padre">
+        <div class="visor">
+            <input type="text" id="visorTeclado" placeholder="Para escribir en la pantalla utilizar los botones del teclado" disabled>
+        </div>
+            <div class="botones">
+                <button onclick="teclear(0,'fila1')">Q</button>
+                <button onclick="teclear(1,'fila1')">W</button>
+                <button onclick="teclear(2,'fila1')">E</button>
+                <button onclick="teclear(3,'fila1')">R</button>
+                <button onclick="teclear(4,'fila1')">T</button>
+                <button onclick="teclear(5,'fila1')">Y</button>
+                <button onclick="teclear(6,'fila1')">U</button>
+                <button onclick="teclear(7,'fila1')">I</button>
+                <button onclick="teclear(8,'fila1')">O</button>
+                <button onclick="teclear(9,'fila1')">P</button>
+                <br>
+                <button onclick="teclear(0,'fila2')">A</button>
+                <button onclick="teclear(1,'fila2')">S</button>
+                <button onclick="teclear(2,'fila2')">D</button>
+                <button onclick="teclear(3,'fila2')">F</button>
+                <button onclick="teclear(4,'fila2')">G</button>
+                <button onclick="teclear(5,'fila2')">H</button>
+                <button onclick="teclear(6,'fila2')">J</button>
+                <button onclick="teclear(7,'fila2')">K</button>
+                <button onclick="teclear(8,'fila2')">L</button>
+                <button onclick="teclear(9,'fila2')">Ñ</button>
+                <br>
+                <button onclick="teclear(0,'fila3')">Z</button>
+                <button onclick="teclear(1,'fila3')">X</button>
+                <button onclick="teclear(2,'fila3')">C</button>
+                <button onclick="teclear(3,'fila3')">V</button>
+                <button onclick="teclear(4,'fila3')">B</button>
+                <button onclick="teclear(5,'fila3')">N</button>
+                <button onclick="teclear(6,'fila3')">M</button>
+                <br>
+                <button onclick="backspace()"> ←</button>
+                <button class="btEspacio" onclick="space()">Space</button>
+                <button onclick="borrar()">Borrar</button>
+            </div>
+    </div>
+</body>
+</html>
